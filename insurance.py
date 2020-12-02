@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import io
 
-model = load_model('insurance_model')
+model = load_model('gbr')
 
 def predict(model, input_df):
     predictions_df = predict_model(estimator=model, data=input_df)
