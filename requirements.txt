@@ -1,5 +1,5 @@
 pycaret==2.2.2
-nltk.txt
+nltk
 numpy
 pandas
 streamlit
