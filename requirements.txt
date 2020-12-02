@@ -1,2 +1,5 @@
 pycaret==2.2.2
+nltk
+numpy
+pandas
 streamlit
