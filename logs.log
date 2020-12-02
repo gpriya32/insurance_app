@@ -173,3 +173,5 @@
                                         weight_2=1, weights=[1, 1, 1])]]), probability_threshold=None, encoded_labels=True, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
 2020-12-02 20:45:44,512:INFO:Checking exceptions
 2020-12-02 20:45:44,513:INFO:Preloading libraries
+2020-12-03 00:52:07,409:INFO:Initializing load_model()
+2020-12-03 00:52:07,410:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
