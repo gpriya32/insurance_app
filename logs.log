@@ -1,0 +1,175 @@
+2020-12-02 20:12:58,759:INFO:Initializing load_model()
+2020-12-02 20:12:58,760:INFO:load_model(model_name=insurance_model.pkl, platform=None, authentication=None, verbose=True)
+2020-12-02 20:13:23,972:INFO:Initializing load_model()
+2020-12-02 20:13:23,973:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:14:37,245:INFO:Initializing load_model()
+2020-12-02 20:14:37,245:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:15:10,128:INFO:Initializing load_model()
+2020-12-02 20:15:10,129:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:17:13,935:INFO:Initializing load_model()
+2020-12-02 20:17:13,937:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:17:42,017:INFO:Initializing load_model()
+2020-12-02 20:17:42,017:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:18:39,930:INFO:Initializing load_model()
+2020-12-02 20:18:39,931:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:19:18,739:INFO:Initializing load_model()
+2020-12-02 20:19:18,739:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:23:30,696:INFO:Initializing load_model()
+2020-12-02 20:23:30,697:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:23:33,179:INFO:Initializing load_model()
+2020-12-02 20:23:33,180:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:23:33,295:INFO:Initializing predict_model()
+2020-12-02 20:23:33,296:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['region'],
+                                      ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                             random_state=123, subclass='binary',
+                             target='charges',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 TunableVotingRegressor(estimators=[('gbr',
+                                                     GradientBoostingRegressor(random_state=123)),
+                                                    ('rf',
+                                                     RandomForestRegressor(n_jobs=-1,
+                                                                           random_state=123)),
+                                                    ('lr',
+                                                     LinearRegression(n_jobs=-1))],
+                                        n_jobs=-1, weight_0=1, weight_1=1,
+                                        weight_2=1, weights=[1, 1, 1])]]), probability_threshold=None, encoded_labels=True, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2020-12-02 20:23:33,313:INFO:Checking exceptions
+2020-12-02 20:23:33,315:INFO:Preloading libraries
+2020-12-02 20:26:28,158:INFO:Initializing load_model()
+2020-12-02 20:26:28,159:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:27:01,190:INFO:Initializing load_model()
+2020-12-02 20:27:01,190:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:30:59,298:INFO:Initializing load_model()
+2020-12-02 20:30:59,299:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:31:02,869:INFO:Initializing load_model()
+2020-12-02 20:31:02,870:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:32:39,778:INFO:Initializing load_model()
+2020-12-02 20:32:39,778:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:32:44,233:INFO:Initializing load_model()
+2020-12-02 20:32:44,233:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:32:59,119:INFO:Initializing load_model()
+2020-12-02 20:32:59,120:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:33:02,604:INFO:Initializing load_model()
+2020-12-02 20:33:02,604:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:34:28,205:INFO:Initializing load_model()
+2020-12-02 20:34:28,206:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:34:32,359:INFO:Initializing load_model()
+2020-12-02 20:34:32,360:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:35:15,298:INFO:Initializing load_model()
+2020-12-02 20:35:15,298:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:35:20,044:INFO:Initializing load_model()
+2020-12-02 20:35:20,045:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:42:58,328:INFO:Initializing load_model()
+2020-12-02 20:42:58,329:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:43:04,238:INFO:Initializing load_model()
+2020-12-02 20:43:04,239:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:44:20,901:INFO:Initializing load_model()
+2020-12-02 20:44:20,901:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:44:39,713:INFO:Initializing load_model()
+2020-12-02 20:44:39,714:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:44:39,843:INFO:Initializing plot_model()
+2020-12-02 20:44:39,844:INFO:plot_model(plot=residuals, fold=None, use_train_data=False, verbose=True, display=None, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['region'],
+                                      ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                             random_state=123, subclass='binary',
+                             target='charges',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 TunableVotingRegressor(estimators=[('gbr',
+                                                     GradientBoostingRegressor(random_state=123)),
+                                                    ('rf',
+                                                     RandomForestRegressor(n_jobs=-1,
+                                                                           random_state=123)),
+                                                    ('lr',
+                                                     LinearRegression(n_jobs=-1))],
+                                        n_jobs=-1, weight_0=1, weight_1=1,
+                                        weight_2=1, weights=[1, 1, 1])]]), feature_name=None, fit_kwargs=None, groups=None, label=False, save=False, scale=1, system=True)
+2020-12-02 20:44:39,889:INFO:Checking exceptions
+2020-12-02 20:45:14,573:INFO:Initializing load_model()
+2020-12-02 20:45:14,574:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:45:18,205:INFO:Initializing load_model()
+2020-12-02 20:45:18,205:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:45:18,312:INFO:Initializing predict_model()
+2020-12-02 20:45:18,313:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['region'],
+                                      ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                             random_state=123, subclass='binary',
+                             target='charges',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 TunableVotingRegressor(estimators=[('gbr',
+                                                     GradientBoostingRegressor(random_state=123)),
+                                                    ('rf',
+                                                     RandomForestRegressor(n_jobs=-1,
+                                                                           random_state=123)),
+                                                    ('lr',
+                                                     LinearRegression(n_jobs=-1))],
+                                        n_jobs=-1, weight_0=1, weight_1=1,
+                                        weight_2=1, weights=[1, 1, 1])]]), probability_threshold=None, encoded_labels=True, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2020-12-02 20:45:18,320:INFO:Checking exceptions
+2020-12-02 20:45:18,320:INFO:Preloading libraries
+2020-12-02 20:45:23,311:INFO:Initializing load_model()
+2020-12-02 20:45:23,311:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:45:44,391:INFO:Initializing load_model()
+2020-12-02 20:45:44,392:INFO:load_model(model_name=insurance_model, platform=None, authentication=None, verbose=True)
+2020-12-02 20:45:44,508:INFO:Initializing predict_model()
+2020-12-02 20:45:44,508:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['region'],
+                                      ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_st...
+                             random_state=123, subclass='binary',
+                             target='charges',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 TunableVotingRegressor(estimators=[('gbr',
+                                                     GradientBoostingRegressor(random_state=123)),
+                                                    ('rf',
+                                                     RandomForestRegressor(n_jobs=-1,
+                                                                           random_state=123)),
+                                                    ('lr',
+                                                     LinearRegression(n_jobs=-1))],
+                                        n_jobs=-1, weight_0=1, weight_1=1,
+                                        weight_2=1, weights=[1, 1, 1])]]), probability_threshold=None, encoded_labels=True, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2020-12-02 20:45:44,512:INFO:Checking exceptions
+2020-12-02 20:45:44,513:INFO:Preloading libraries
